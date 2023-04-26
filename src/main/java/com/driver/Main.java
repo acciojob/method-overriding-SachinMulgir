@@ -14,13 +14,12 @@ public class Main {
         @Override
         public String meth(){
             super.meth();
-            return "Method is overridden in Extended class B";
+            return "Method is overridden in Extendend class B";
         }
     }
     public static void main(String[] args) {
         B obj = new B();
         obj.meth();
-
     }
   
 }
